@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+
+<body style="font-family: sans-serif;">
+    <nav style="display: flex;">
+        <img src="./images/logo.png" alt="logo" width="40px" height="40px" />
+        <ul style="display: flex; gap: 20px; list-style: none;">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="table.html">Table</a></li>
+            <li><a href="form.html">Form</a></li>
+
+        </ul>
+    </nav>
+    <div style="border: 2px; border-color: black; border-style: groove;">
+        <h1 style="text-align: center;">Application Form</h1>
+        <form action="" style="margin-left: 20px; margin-right: 20px;">
+            <h2 style="background: #3b65d8; border-radius: 2px; padding-left: 20px;">A. General Questions</h2>
+            <div style="margin-left: 40px">
+                <label for="fullName">Full Name:</label>
+                <input style="width: 500px;" type="text" id="fullName" name="fullName" placeholder="Abdul Rehman"
+                    required><br>
+                <label for="Birth Date">Birth Date:</label>
+                <input type="date" id="BirthDate" name="BirthDate" placeholder="" required>
+                <input type="checkbox">
+                <label for="checkbox">Male</label>
+                <input type="checkbox">
+                <label for="checkbox">Female</label><br>
+                <label for="text">Address:</label>
+                <input type="text" id="Address" name="Address" placeholder="Address" required><br>
+                <label for="PhoneNumber">Phone Number:</label>
+                <input type="tel" id="PhoneNumber" name="PhoneNumber" placeholder="" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="myemail@yahoo.com" required><br>
+                <label for="IdNumber">ID Number:</label>
+                <input type="number" id="IdNumber" name="IdNumber" placeholder="34343" required>
+                <label for="SocialNumber">Social Security Number:</label>
+                <input type="number" id="SocialNumber" name="Socialnumber" placeholder="" required><br>
+                <span>Status:</span>
+                <input type="checkbox" id="status" name="Single" required>
+                <label for="Status">Single</label>
+                <input type="checkbox" id="status" name="Married" required>
+                <label for="Status">Married</label>
+                <input type="checkbox" id="status" name="Devorced" required>
+                <label for="Status">Devorced</label>
+                <input type="checkbox" id="status" name="Others" required>
+                <label for="Status">Others</label><br>
+                <label for="Status">Occupation:</label>
+                <input type="text" id="Occupation" name="Status" required>
+                <label for="checkbox">Are you retired</label>
+                <input type="checkbox" id="status" name="Others" required>
+                <label for="checkbox">Yes</label>
+                <input type="checkbox" id="status" name="Others" required>
+                <label for="checkbox">No</label>
+            </div>
+            <h2 style="background: #3b65d8; border-radius: 2px; padding-left: 20px;">B. Type of Health Coverage</h2>
+            <div style="margin-left: 40px">
+                <table border="2" style="height: 100px; width: 810px;">
+                    <tr>
+                        <td>
+                            <label for="checkbox">Employee:</label>
+                            <input type="checkbox">
+                            <label for="checkbox">Yes</label>
+                            <input type="checkbox">
+                            <label for="checkbox">No</label><br>
+                            <label for="text">Plan Choice:</label>
+                            <input type="text">
+                        </td>
+                        <td><label for="checkbox">Spouse:</label>
+                            <input type="checkbox">
+                            <label for="checkbox">Yes</label>
+                            <input type="checkbox">
+                            <label for="checkbox">No</label><br>
+                            <label for="text">Plan Choice:</label>
+                            <input type="text">
+                        </td>
+                        <td><label for="checkbox">Children:</label>
+                            <input type="checkbox">
+                            <label for="checkbox">Yes</label>
+                            <input type="checkbox">
+                            <label for="checkbox">No</label><br>
+                            <label for="text">Plan Choice:</label>
+                            <input type="text">
+                        </td>
+                    </tr>
+                </table>
+                <h4>Complete if Spouse/Children are Proposed for Insurance</h4>
+                <table border="2">
+                    <tbody>
+                        <tr>
+                            <th width="200px" height="20px">Name</th>
+                            <th width="150px" height="20px">SSN No.</th>
+                            <th width="160px" height="20px">Relationship to proposed insured</th>
+                            <th width="100px" height="20px">Birth Date</th>
+                            <th width="80px" height="20px">Age</th>
+                            <th width="80px" height="20px">Sex</th>
+                        </tr>
+                        <tr>
+                            <td height="20px"></td>
+                            <td height="20px"></td>
+                            <td height="20px"></td>
+                            <td height="20px"></td>
+                            <td height="20px"></td>
+                            <td height="20px"></td>
+                        </tr>
+                        <tr>
+                            <td height="20px"></td>
+                            <td height="20px"></td>
+                            <td height="20px"></td>
+                            <td height="20px"></td>
+                            <td height="20px"></td>
+                            <td height="20px"></td>
+                        </tr>
+                        <tr>
+                            <td height="20px"></td>
+                            <td height="20px"></td>
+                            <td height="20px"></td>
+                            <td height="20px"></td>
+                            <td height="20px"></td>
+                            <td height="20px"></td>
+                        </tr>
+                        <tr>
+                            <td height="20px"></td>
+                            <td height="20px"></td>
+                            <td height="20px"></td>
+                            <td height="20px"></td>
+                            <td height="20px"></td>
+                            <td height="20px"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <h2 style="background: #3b65d8; border-radius: 2px; padding-left: 20px;">C. The Policy</h2>
+            <div style="margin-left: 40px">
+                <label for="text">Units</label>
+                <input type="text" required>
+                <label for="text">Annual Premium</label>
+                <input type="text" required><br>
+                <label for="checkbox">Payment Mode:</label>
+                <input type="checkbox">
+                <label for="checkbox">Annual</label>
+                <input type="checkbox" required>
+                <label for="Status">Sami-Annual</label>
+                <input type="checkbox" required>
+                <label for="Status">Monthly PAT (Complete PAT Card)</label><br>
+                <label for="text">Cash With Application: $</label>
+                <input type="text" required><br>
+                <label for="text">Planned Modal Premium: $</label>
+                <input type="text" required><br>
+                <p><strong>Terms & Conditions</strong></p>
+                <p>Improvement should be measured regularly and assessed in order<br> for you to know what's beneficial
+                    and
+                    what not. This will help you set new target. <br>
+                    <label for="text">Signature:</label><br>
+                    <input type="text" required><br>
+                    <label for="Date">Date:</label>
+                    <input type="date" required><br>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
